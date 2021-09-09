@@ -1,8 +1,10 @@
 const { createHmac } = require('crypto');
-const { SALT } = require('./constans');
+const { HASH_SALT } = require('./constant');
 const { readFile } = require('fs').promises;
 
 const file = process.argv[2];
 
-const hash = createHmac('sha512', SALT).update(readFile(file)).digest('hex');
+const hash = createHmac('sha512', HASH_SALT)
+  .update(readFile(file))
+  .digest('hex');
 console.log(hash);

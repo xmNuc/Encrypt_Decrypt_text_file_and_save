@@ -1,5 +1,5 @@
 {
-  "name": "crypto_szyfrowanie_pliku_zapis_do_pliku",
+  "name": "Encrypt_Decrypt_text_file_and_save",
   "version": "1.0.0",
   "description": "",
   "main": "cipher.js",
@@ -7,6 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jakub D",
   "license": "ISC"
 }

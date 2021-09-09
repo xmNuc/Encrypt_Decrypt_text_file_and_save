@@ -1,5 +1,5 @@
 const { encryptText, hash } = require('./cipher');
-const { SALT, HASH_SALT } = require('./constans');
+const { SALT, HASH_SALT } = require('./constant');
 const { writeFile, readFile } = require('fs').promises;
 
 const file = process.argv[2];
