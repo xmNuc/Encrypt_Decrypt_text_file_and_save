@@ -2,7 +2,10 @@
 This program will encrypt and decrypt the file. 
 There are modules:
 cipher.js - includes encryption methods
-
+encrypt.js - file encryption module
+decrypt.js - file decryption module
+hash.js - generate a Hash from string
+constant.js - salt and hash_salt module used for encrypt/decrypt
 
 How to use:
 node encrypt.js file_to_encrypt password
