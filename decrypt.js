@@ -23,9 +23,6 @@ const userPass = process.argv[3];
   } else {
     console.log('File is not orginal');
   }
-
   console.log(decrypted);
-
-  await writeFile(file, JSON.stringify(decrypted), 'utf8');
   console.log('File is Saved');
 })();
